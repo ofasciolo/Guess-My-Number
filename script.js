@@ -42,7 +42,7 @@ function onClickAgain() {
   document.querySelector(".guess").value = "";
 
   setMessage(".message", "Start guessing...");
-  setMessage(".scpre", score);
+  setMessage(".score", score);
   setMessage(".number", "?");
 
   document.querySelector("body").style.backgroundColor = "#222";
